@@ -14,9 +14,9 @@ use X11::WM::Sawfish;
 our @ISA = qw(X11::WM::Sawfish);
 our @EXPORT_OK = qw();
 our @EXPORT = qw();
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
-use IO;
+use IO qw(Socket);
 
 use constant req_eval           =>   0;
 use constant req_eval_async     =>   1;
