@@ -1,0 +1,7 @@
+Changes
+MANIFEST
+Makefile.PL
+README
+Sawfish.pm
+Sawfish/UNIX.pm
+Sawfish/XProp.pm
